@@ -1,5 +1,5 @@
 # linernotes-csl
-CSL modified for liner notes, book reviews and scores
+CSL modified for liner notes, book reviews and scores.
 First of all, your mileage may vary.
 These files include modified CSL for CMOS 18 notes-bibliography AND author-date to accommodate tracking and citing liner notes; book reviews, hypothetically recording reviews; and music scores. CSL had the most modifications to include the liner notes; the others have the type indicated in the extra field.
 The RDF file includes templates for each of the additional formats. Duplicate those when entering new information for your citation. Another alternative is to use the format type listed at the top of the template, then copy the extra field information to your new citation.
