@@ -1,0 +1,71 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <bib:BookSection rdf:about="#item_27403">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Book><dc:title>Album title here</dc:title></bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>Record label</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <z:bookAuthors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Compoersith</foaf:surname>
+                        <foaf:givenName>performer</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:bookAuthors>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Green</foaf:surname>
+                        <foaf:givenName>Laura Gayle</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:subject>#nosource</dc:subject>
+        <dc:subject>Liner Notes</dc:subject>
+        <dc:title>Template for Liner Notes</dc:title>
+        <dc:description>genre: Liner notes
+medium: Compact disc
+number: Folkways ABC123</dc:description>
+        <z:citationKey>greenFolkNeverLeft1997</z:citationKey>
+    </bib:BookSection>
+    <bib:Book rdf:about="#item_27406">
+        <z:itemType>book</z:itemType>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>/unread</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>#nosource</dc:subject>
+        <dc:subject>score</dc:subject>
+        <dc:title>Template for Music Score</dc:title>
+        <dc:description>musical_score</dc:description>
+        <z:citationKey>zotero-item-27406</z:citationKey>
+    </bib:Book>
+    <bib:Article rdf:about="#item_27407">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <dc:subject>
+           <z:AutomaticTag><rdf:value>/unread</rdf:value></z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>#nosource</dc:subject>
+        <dc:subject>book-review</dc:subject>
+        <dc:title>Template for book review</dc:title>
+        <dc:description>review-book</dc:description>
+        <z:citationKey>zotero-item-27407</z:citationKey>
+    </bib:Article>
+</rdf:RDF>
