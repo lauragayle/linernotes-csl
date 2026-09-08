@@ -13,9 +13,9 @@ If you have not installed a new citation style to your Zotero before, here are t
 * these items will likely be in their own collection after import.
 * Open any one of these from the collection and note the tag for the format and the information in the extra field. In the case of liner notes, I've completed a fake citation to help you complete your entry. More information regarding the liner note details in the code below.
 
-If you have corrections or suggestions, please contact me. I'm a music librarian and passionate Zotero user. While I do limited coding, it's not my strong suit. If you are the person whose work I've built on, please contact me so I can thank you and cite you here.
+If you have corrections or suggestions, please contact me. I'm a music librarian and passionate Zotero user. While I do limited coding, it's not my strong suit. I did use Claude.ai to edit the XML. 
 
-The critical bit of code cribbed from someone whose username I've misplaced is
+The critical bit of code is
 
 ~~~Enter print liner notes in Zotero as a Book Section:
          Author        = liner-notes author
