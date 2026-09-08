@@ -29,4 +29,4 @@ The critical bit of code cribbed from someone whose username I've misplaced is
                          medium: compact disc
                          number: <label catalogue number>   (optional)
                          event-date: 2019-05-04             (recording date, optional; original-date also accepted)
-       The liner-notes format is triggered by a Book Section that has both `genre` and `medium`~~~
+       The liner-notes format is triggered by a Book Section that has both `genre` and `medium`
