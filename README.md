@@ -1,15 +1,15 @@
 # linernotes-csl
 CSL modified for liner notes, book reviews and scores.
 First of all, your mileage may vary.
-These files include modified CSL for CMOS 18 notes-bibliography AND author-date to accommodate tracking and citing liner notes; book reviews, hypothetically recording reviews; and music scores. CSL was modified to include the liner notes; the others formats have the type indicated in the extra field.
-The RDF file includes templates for each of the additional formats. Duplicate those when entering new information for your citation. Another alternative is to use the format type listed at the top of the template, then copy the extra field information to your new citation.
+These files include modified CSL for CMOS 18 notes-bibliography AND author-date to accommodate tracking and citing liner notes; book reviews, hypothetically recording reviews; and music scores. CSL was modified to include the liner notes; the other formats have the type indicated in the extra field.
+The RDF file includes templates for each additional format. Duplicate those when entering new information for your citation. Alternatively, use the format type listed at the top of the template, then copy the extra field information to your new citation.
 
 If you have not installed a new citation style to your Zotero before, here are the necessary steps:
 * download the csl file
 * in your Zotero installation, go to Settings, then Cite, then Add from file
 * choose the downloaded file; note the name displayed in the style list is either CMOS 18 liner notes author-date or CMOS 18 liner notes notes-bibliography
 * next, download the template file
-* in your Zotero installation, choose File, Import, A file then navaigate to the downloaded file
+* in your Zotero installation, choose File, Import, A file then navigate to the downloaded file
 * these items will likely be in their own collection after import.
 * Open any one of these from the collection and note the tag for the format and the information in the extra field. In the case of liner notes, I've completed a fake citation to help you complete your entry. More information regarding the liner note details in the code below.
 
