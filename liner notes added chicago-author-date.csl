@@ -13,7 +13,7 @@
       <name>Andrew Dunning</name>
       <uri>https://orcid.org/0000-0003-0464-5036</uri>
     </author>
-   <contributor>
+    <contributor>
       <name>Laura Gayle Green</name>
       <uri>https://orcid.org/0000-0002-4728-1132</uri>
     </contributor>
@@ -4072,7 +4072,7 @@
        In author-date, the release year follows the author; it is not repeated after the label. -->
   <macro name="liner-notes-composer-bib">
     <names variable="container-author">
-      <name and="text" delimiter-precedes-last="always" initialize="false" name-as-sort-order="all"/>
+      <name and="text" initialize="false"/>
       <substitute>
         <names variable="composer"/>
       </substitute>
@@ -4105,23 +4105,17 @@
   <macro name="liner-notes-bib">
     <group delimiter=". ">
       <text quotes="true" text-case="title" variable="title"/>
-      <choose>
-        <if match="any" variable="container-author composer">
-          <group delimiter=" ">
-            <text text-case="capitalize-first" variable="genre"/>
-            <text value="for"/>
+      <group delimiter=" ">
+        <text text-case="capitalize-first" variable="genre"/>
+        <!-- "for" prints only when a composer or recording title follows it -->
+        <group delimiter=" ">
+          <text value="for"/>
+          <group delimiter=", ">
             <text macro="liner-notes-composer-bib"/>
-          </group>
-          <text font-style="italic" text-case="title" variable="container-title"/>
-        </if>
-        <else>
-          <group delimiter=" ">
-            <text text-case="capitalize-first" variable="genre"/>
-            <text value="for"/>
             <text font-style="italic" text-case="title" variable="container-title"/>
           </group>
-        </else>
-      </choose>
+        </group>
+      </group>
       <text macro="liner-notes-performers"/>
       <text macro="liner-notes-recording-date-bib"/>
       <group delimiter=" ">
